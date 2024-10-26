@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/ Custom Tailwind CSS configurations /
+
+/ Colors /
+body {
+  @apply bg-gray-100;
+}
+
+.bg-primary {
+  @apply bg-blue-500;
+}
+
+.text-primary {
+  @apply text-blue-500;
+}
+
+.bg-secondary {
+  @apply bg-gray-800;
+}
+
+.text-secondary {
+  @apply text-gray-800;
+}
+
+.bg-success {
+  @apply bg-green-500;
+}
+
+.text-success {
+  @apply text-green-500;
+}
+
+.bg-warning {
+  @apply bg-yellow-500;
+}
+
+.text-warning {
+  @apply text-yellow-500;
+}
+
+.bg-danger {
+  @apply bg-red-500;
+}
+
+.text-danger {
+  @apply text-red-500;
+}
+
+/ Fonts /
+body {
+  @apply font-sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
+}
+
+/ Spacing /
+.container {
+  @apply max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/ Buttons /
+.btn {
+  @apply px-4 py-2 rounded-md shadow-md;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500;
+}
+
+.btn-success {
+  @apply bg-success text-white hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300;
+}
+
+.btn-warning {
+  @apply bg-warning text-white hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-300;
+}
+
+.btn-danger {
+  @apply bg-danger text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300;
+}
+
+/ Forms /
+.form-group {
+  @apply mb-4;
+}
+
+.form-input {
+  @apply px-3 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-300;
+}
+
+/ Tables /
+.table {
+  @apply w-full text-sm text-left text-gray-500 dark:text-gray-400;
+}
+
+.table-header {
+  @apply bg-gray-50 text-gray-700 dark:bg-gray-700 dark:text-gray-300;
+}
+
+.table-row {
+  @apply hover:bg-gray-100 dark:hover:bg-gray-800;
+}
+
+/ Cards /
+.card {
+  @apply rounded-md shadow-md bg-white;
+}
+
+.card-body {
+  @apply p-4;
+}
+
+/ Tabs /
+.tabs {
+  @apply flex gap-4 mb-4;
+}
+
+.tab {
+  @apply px-4 py-2 rounded-md;
+}
+
+.active-tab {
+  @apply bg-primary text-white;
+}
+
+/ Navbars /
+.navbar {
+  @apply shadow-md bg-white;
+}
+
+/ Footer /
+.footer {
+  @apply bg-gray-100 text-gray-700 py-4 mt-4;
+}
+
+/ Responsive Design /
+@media (max-width: 768px) {
+  / Style adjustments for smaller screens /
+}
+
+@media (min-width: 768px) {
+  / Style adjustments for larger screens /
+}
